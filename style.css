@@ -1,0 +1,615 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  
+
+}
+
+ /*  Begining of css  for  Nav Area 1 */
+.header{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     height: 8vh;
+     font-size: 11px; 
+}
+
+.imgnav{
+        margin: 0 0.5rem -1.4rem 0; 
+}
+
+.nav-area-top{
+    /* background-color: #000; */
+    color: #fff;
+}
+
+/*  end of css  for  Nav Area 1 */
+
+.mother{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: rgb(173, 10, 10) solid 2px; */
+    padding: 0 20px;
+    /* margin: 10px; */
+}
+
+.adidas1{
+    display: flex;
+    align-items: flex-end;
+    /* border: 2px solid blue; */
+}
+
+.hamburger{
+    font-size: 30px;
+    display: flex;
+    display: none;
+    align-items: flex-end;
+   
+
+}
+.adidas2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    display: none;
+}
+
+.head1 {
+    display: flex;
+    align-items: flex-end;
+    /* border: 2px solid red ; */
+    /* width: 50%; */
+    flex-grow: 1;
+    justify-content: center;
+    letter-spacing: 2px;
+
+  
+  
+}
+.head1 h3{
+ margin: 10px;
+ /* border: 2px solid yellow; */
+
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    /* border: solid 2px royalblue; */
+
+}
+
+.head3{
+    display: flex;
+    gap: 20px;
+}
+
+.head4{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* border: 2PX blueviolet solid; */
+   
+  
+}
+
+.head4 button{
+    width: 50%;
+    text-align: left;
+    display: flex;
+     justify-content: space-between;
+       align-items: center;
+     border: none;
+   
+     background-color: rgb(238, 229, 229);
+}
+
+.search1{
+    display: none;
+}
+
+h4{
+    color: rgb(224, 215, 215);
+}
+
+.bold{
+    color: #000;
+    font-size: 30px;
+    /* font-weight: 400; */
+    /* border: solid 2px green; */
+}
+
+.differ{
+    color: rgb(141, 139, 139);
+}
+
+@media all and (max-width:1280px){
+    .head1{
+        justify-content:flex-start;
+    }
+}
+
+@media all and (max-width:856px){
+    .hamburger{
+        display: block;
+        display: flex;
+        justify-content: center;
+        border: 2px solid green;
+    }
+    .adidas2{
+        display: block;
+        display: flex;
+        align-items: flex-end;
+       border: 2px solid blueviolet;
+    }
+    .adidas1{
+        display: none;
+    }
+    .head1{
+        display: none;
+    }
+    .head3{
+        display: none;
+    }
+    .head4 button{
+       display: none;
+    }
+    .bold{
+        display: flex;
+        width: 100%;
+    }
+    .hart{
+        display: none;
+    }
+    .search1{
+        display: block;
+    }
+}
+
+/* beinging of video */
+  .video video{
+    width: 100%;
+    margin-top: 10px;  
+}
+
+.video{
+    position: relative;
+    height: 100vh;
+}
+
+.loop-video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-video{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    color: #fff;
+    padding-left: 3rem;
+}
+.video-h1 p{
+    font-size: 20px;
+}
+
+button{
+    padding: 1rem;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #000;
+}
+
+.button:hover{
+    background-color: aliceblue;
+}
+
+
+/* end of vidoe */
+
+
+/* beinging of video2 */
+
+/* .video .video2{
+    width: 100%;
+    margin-top: 10px;  
+}
+
+.video2{
+    position: relative;
+    height: 100vh;
+}
+
+.video source{
+    width: 100vh;
+}
+
+.loop-video2{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+
+/* end of video2 */
+
+
+
+
+
+
+/* begining of still interested */
+ .still-interested{
+      /* padding: 2rem; */
+} 
+
+.still-interested h2{
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+ 
+    
+}
+.still-interested-link{
+    display: flex;
+    color: #000;
+    gap: 30px;
+   
+}
+.still-interested-link a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.still-interested-link a{
+    color: #000;
+   
+}
+/* end of still interested */
+
+
+  /* beinging of item */
+.item{
+    display: flex;
+     justify-content: space-around;
+     gap: 20px;
+     position: relative;
+  
+}
+.imgg:hover{
+   border: 1px solid black;
+}
+
+.item i{
+      display: flex;
+      position: absolute;
+    
+      font-size: 20px; 
+}
+
+.white{
+    position: absolute;
+      margin-left: 3px;
+    bottom:3rem;
+    background-color: #fff;
+}
+/* end of item */
+
+
+/* Begining of popular right now  */
+
+       .popular-right-now{
+         text-align: center;
+         padding: 3rem;
+      
+      }
+     .popular{
+      text-align: center;
+
+     }
+
+  .right-now{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 2rem;
+  
+  }
+
+.right-now a:hover{
+    border: 1px solid black;
+}
+
+/* for images */
+
+ .right-now-images{
+     display: flex;
+     justify-content: space-around;
+     margin: 10px;
+ }
+
+ .right-now a{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+    border-radius: 1px;
+    color: #000;
+}
+
+ .right-now-img{
+     text-align: center;
+     background-color: rgb(240,240,240);
+ }
+
+ .img-right a{
+     color: #000;
+ }
+
+ .img-right a:hover{
+     background-color: #000;
+     color: #fff;
+ }
+/* end of popular right now */
+
+
+/* EGINGING OF NEW ARRIVALS */
+     .new-arrival{
+       display: flex;
+       justify-content: space-around;
+      border-bottom: 1px solid rgb(218, 214, 214);
+      border-top: 1px solid rgb(216, 212, 212);
+       padding: 1rem;
+      
+
+    }
+
+    .treading{
+      
+        display: flex;
+        flex-direction: row;
+        gap: 20PX;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+  
+    }
+
+    .view-all a{
+      color: #000;
+      display: flex;
+      
+      
+        
+    }
+    .th3{
+        color: gray;
+    }
+    .h32{
+       border-bottom: #000 solid 2px;
+    }
+    .th3:hover{
+        border-bottom: 2px #000 solid;
+    } 
+/* END OF NEW ARRIVALS */
+
+
+/* BEGINGING OF NEW ARRIVALS IMAGES  */
+     .img-text1{
+         background-image: url('images/head1.webp');
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         width: 400px;
+         height: 300px;
+     }
+     .img-text2{
+        background-image: url('images/head2.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px;
+    }
+    .img-text3{
+        background-image: url('images/head3.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px;
+    }
+    .img-text4{
+        background-image: url('images/head4.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px;
+    }
+    .img-text5{
+        background-image: url('images/head5.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px;
+    }
+
+      .new-arrivals-images{
+         display: flex;  
+
+    }
+
+     .text-img{
+         width: 50vh;
+     }
+/* END OF NEW ARRIVALS IMAGES */
+
+
+
+/* BEGINGING OF JUMP */
+   .jumb{
+       display: flex;
+   }
+      
+/* END OF JUMP */
+
+/* BEGINING OF SHOPNOW */
+     .shopnow-link {
+        display: flex;
+        justify-content: space-around;
+        
+     }
+
+     .shopnow-link a{
+         color: #000;
+         font-size: 15px;
+     }
+     .shopnow-link a:hover{
+         color: #fff;
+         background-color: #000;
+     }
+/* END OF SHOPNOW */
+
+/* BEGINING OF BOOKPAGE*/
+.bookpage-head{
+    display: flex;
+}
+  .bookpage{
+      display: flex;
+      justify-content: center;
+      min-width: 1000px;
+      gap: 20px;
+      text-align: center;
+      background-color: lightgray;
+      height: 50vh;
+      padding: 2rem;
+     
+  }
+
+   .page1{
+       max-width:1000px ;
+     margin: 0 auto;
+     max-width: 1000px;
+     line-height: 20px;
+   }
+
+   .page1 h4{
+       font-size: 15px;
+       color: #000;
+     
+   }
+/*END OF BOOKPAGE*/
+
+/* SIGN IN FOR FREE */
+      .sign-in{
+          display: flex;
+          justify-content: center;
+         gap: 30PX;
+         background-color: yellow;
+        height: 20vh;
+        padding: 2rem;
+      }
+    .sign-in h1{
+       font-size: 25px;
+   }
+   .sign-in a{
+       background-color: #000;
+       font-size: 13px;
+       color: #fff;
+       padding: 1.30rem;
+       line-height: 3rem;
+       text-decoration: none;
+   }
+
+   .sign-in a:hover{
+       background-color: rgb(46, 36, 36);
+
+   }
+
+/* END IN FOR FREE */
+
+
+/* BEGINING PRODUCTS */
+     .products{
+         display: flex;
+         justify-content: space-around;
+         line-height: 25px;
+         color: #000;
+     }
+     .prod1 h4{
+         color: #000;
+         font-size: 17px;
+      
+     }
+     
+     .split{
+         color: #000;
+         font-size: 15px;
+     }
+
+    .split li {
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+
+        
+    }
+    .split li :hover{
+         text-decoration: underline;
+         color: #000;
+    }
+
+    .split a{
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .unit{
+        font-size: 25px;
+        color: #000;
+        line-height: 2rem;
+    }
+/* END PRODUCTS */
+
+
+/* BEGINGING FOOTER  */
+      .footer{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(66, 65, 65);
+          height: 20vh;
+        
+       
+      }
+
+      .footer-link a{
+        font-size: 16px;
+        color: rgb(153, 149, 149);
+        margin: 20px;
+        text-decoration: none;
+        border-right: rgb(131, 124, 124) solid 1px;
+      }
+
+
+      .last-footer{
+        display: flex;
+        position: absolute;
+        left: 3rem;
+      }
+
+      .last-footer p{
+          position: relative;
+          bottom: 50px;
+          color: gray;
+          font-size: 15px;
+      }
+/* END FOOTER  */
